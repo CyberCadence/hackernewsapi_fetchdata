@@ -65,7 +65,7 @@ final Uri uri=Uri();
     backgroundColor: Colors.grey.shade400,
     appBar: AppBar(
     backgroundColor: Colors.black54,
-    title: const Center(child: Text('Latest Tech News',style: TextStyle(fontWeight: FontWeight.w500),)),),
+    title: const Center(child: Text('Latest Tech News',style: TextStyle(fontWeight: FontWeight.w700),)),),
     body: Center(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
