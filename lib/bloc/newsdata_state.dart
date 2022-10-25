@@ -14,6 +14,13 @@ class NewsdataLoadedstate extends NewsdataState {
    NewsdataLoadedstate({required this.storylist});
 }
 
+class LaunchUrlState extends NewsdataState{
+
+
+
+  
+}
+
 
 
 class Errorstate extends NewsdataState {

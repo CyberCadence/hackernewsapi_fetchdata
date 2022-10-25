@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return   MaterialApp(
         home: BlocProvider<NewsdataBloc>(
       create: (context) => NewsdataBloc( repository: Repository()),
-      child:   const NewsPageList(),
+      child:    NewsPageList(),
     ));
   }
 }
