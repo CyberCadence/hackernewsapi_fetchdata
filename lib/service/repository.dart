@@ -26,7 +26,6 @@ final NewsType newsType;
 
       return Story.fromJson(json);
     }).toList();
-
     return stories;
   }
 
